@@ -1,0 +1,38 @@
+{
+  "name":"blockUI",
+  "version":"2.53.0",
+  "description":"The jQuery BlockUI Plugin lets you simulate synchronous behavior when using AJAX, without locking the browser. When activated, it will prevent user activity with the page (or part of the page) until it is deactivated. BlockUI adds elements to the DOM to give it both the appearance and behavior of blocking user interaction.",
+  "keywords":[
+    "blockUI",
+    "jQuery",
+    "UI",
+    "block"
+  ],
+  "categories":[
+    "UI"
+  ],
+  "licenses":[
+    {
+      "type":"MIT",
+      "url":"http://www.opensource.org/licenses/mit-license.php"
+    },
+    {
+      "type":"GPL",
+      "url":"http://www.gnu.org/licenses/gpl.html"
+    }
+  ],
+  "homepage":"http://www.malsup.com/jquery/block/",
+  "bugs":{
+    "url":"https://github.com/malsup/blockui/issues"
+  },
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/malsup/blockui.git"
+  },
+  "jam":{
+    "dependencies":{
+      "jquery":">1.3.0"
+    },
+    "main":"jquery.blockUI.js"
+  }
+}
